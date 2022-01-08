@@ -1,0 +1,392 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  --offwhite: #f5f5f5;
+}
+
+/* Body Styling*/
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  background-color: var(--offwhite);
+}
+
+/*Hero Image*/
+#hero-image {
+  background: url(../images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 65%;
+  height: 1000px;
+  position: relative;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+/*Nav Bar*/
+.bg-light {
+  background-color: transparent !important;
+}
+
+#logo {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.nav-items ul {
+  margin-right: 20px;
+}
+
+.nav-items li {
+  display: inline;
+  font-size: 27px;
+  color: white;
+  margin-left: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--offwhite);
+  opacity: 60%;
+}
+
+.nav-link:hover {
+  color: var(--offwhite);
+  opacity: 60%;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:focus {
+  color: white;
+  text-decoration: underline;
+}
+
+/*Main content styling*/
+main {
+  margin: 0;
+  padding: 0;
+  background-color: var(--offwhite);
+}
+
+.project {
+  color: black;
+}
+
+/*About me section*/
+.self-image img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.about-me {
+  font-size: 22px;
+  margin: 3%;
+  margin-right: 9%;
+  margin-left: 9%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.about-me a {
+  color: black;
+  text-decoration: underline;
+}
+
+.about-dev-list ul,
+li {
+  color: black;
+  font-size: 22px;
+  list-style-type: circle;
+  list-style-position: inside;
+  display: list-item;
+}
+
+/* @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro"); */
+
+/*Image styling*/
+.self-image {
+  grid-column: 1 / 9;
+  grid-row: 1;
+}
+
+#self-image img {
+  border-radius: 50%;
+  grid-column: 1 / 9;
+  grid-row: 1;
+}
+
+/* About me text styling */
+.welcome {
+  font-size: x-large;
+}
+
+.about-me-text {
+  grid-row: 1;
+  grid-column: 3 / 9;
+}
+
+/*Work section*/
+.work-header {
+  padding-top: 3%;
+  font-size: 36px;
+  color: black;
+  text-align: center;
+}
+
+.w-100 {
+  width: 80% !important;
+  margin: auto;
+}
+
+/*Footer*/
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  text-align: center;
+}
+
+.footer-content {
+  margin: 0.5%;
+}
+
+.sticky-footer a {
+  color: var(--offwhite);
+  text-decoration: underline;
+  margin-left: 1.25%;
+}
+
+.copyright-notice {
+  color: white;
+  position: absolute;
+  right: 2%;
+  top: 35%;
+}
+
+/* Work Page Card Styling */
+.work-header {
+  padding: 1%;
+}
+
+#work-nav {
+  background-color: black;
+}
+
+.work-cards {
+  margin-left: 12.5%;
+  width: 75%;
+  margin-top: 0.5%;
+  margin-bottom: 5%;
+}
+
+.card-body {
+  border-top: 0.5px solid grey;
+}
+
+.card-title {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.definehub-body {
+  margin-bottom: 0.5%;
+}
+
+.card-text li {
+  font-size: 20px;
+}
+
+.card-title,
+.card-text {
+  color: black;
+}
+
+#check-mate-screenshot {
+  width: 100%;
+}
+
+.btn-primary {
+  background-color: black;
+  border-color: black;
+  margin-right: 0.5%;
+}
+
+.btn:hover,
+.btn-primary a:hover {
+  color: var(--offwhite);
+  opacity: 70%;
+  background-color: black;
+  transition: none;
+  border-color: black;
+}
+
+.contact-body {
+  border-top: none;
+}
+
+.contact-me {
+  padding: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.card-color {
+  background-color: var(--offwhite);
+  border: none;
+}
+
+.contact-me p {
+  font-size: 20px;
+}
+
+.contact-me a {
+  color: black;
+}
+
+.contactlogos {
+  padding-left: 0.75%;
+  padding-bottom: 2%;
+}
+
+.contactlogos a {
+  margin-right: 1.5%;
+}
+
+/* Media Queries for responsive display */
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  #logo {
+    height: 57px;
+    width: 60px;
+    margin: auto;
+    padding: 0;
+  }
+
+  .nav-items ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 4%;
+  }
+
+  .nav-links li {
+    font-size: 18px;
+    margin: 0;
+    margin-right: 1px;
+  }
+
+  #work-li,
+  #contact-me-li,
+  #resume-li {
+    margin-left: 6px;
+  }
+
+  #welcome-hero {
+    font-size: 50px;
+    animation: animated-text 3s steps(10, end) 0.5s 1 normal both,
+      animated-cursor 600ms steps(7, end) infinite;
+    text-align: center;
+  }
+
+  @keyframes animated-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 375px;
+    }
+  }
+
+  /* cursor animations */
+
+  @keyframes animated-cursor {
+    from {
+      border-right-color: var(--offwhite);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  #hero-image {
+    height: 260px;
+  }
+
+  #self-image {
+    grid-column: 2 / 3;
+  }
+
+  #self-image img {
+    height: 100px;
+    width: 100px;
+  }
+
+  #about-me {
+    padding: 0;
+    margin: 0;
+    gap: 0px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .about-me-text {
+    margin-top: 2%;
+    font-size: 18px;
+    grid-row: 2;
+    grid-column: 1 / 4;
+  }
+
+  .about-dev-list {
+    font-size: 18px;
+  }
+
+  .work-cards {
+    width: 97.5%;
+    margin-left: 1.25%;
+  }
+
+  .work-header {
+    font-size: 22px;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .card-text {
+    font-size: 18px;
+  }
+
+  .card-body a {
+    margin-bottom: 1%;
+    padding: 2.5px;
+    font-size: 16px;
+  }
+}

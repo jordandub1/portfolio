@@ -15,7 +15,7 @@ function Contact() {
             portfolio, job opportunities, or for fun!
           </p>
           <p>
-            Email Address:{" "}
+            Email:{" "}
             <a href="mailto:jordan.dubose1@gmail.com">
               jordan.dubose1@gmail.com
             </a>

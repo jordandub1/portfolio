@@ -7,7 +7,7 @@ function Navigation() {
   return (
     <nav>
       <container class="nav-items">
-        <ul class="nav justify-content-end">
+        <ul class="nav justify-content-center">
           <li class="nav-item">
             <NavLink
               exact
@@ -28,7 +28,7 @@ function Navigation() {
               activeClassName="selected"
               to="/portfolio/work"
             >
-              Portfolio
+              Work
             </NavLink>
           </li>
           <li class="nav-item">

@@ -47,27 +47,24 @@ function Project() {
           </a>
         </div>
       </div>
-      <br />
-      {/* Workout Tracker */}
-      <div className="card work-cards" id="check-mate-card">
+      {/* Weather Dashboard Card */}
+      <div className="card work-cards" id="weather-dashboard-card">
         <img
-          id="workoutTracker-screenshot"
-          src={workoutTracker}
+          id="weather-dashboard-screenshot"
+          src={weatherDashboard}
           className="card-img-top"
-          alt="Workout Tracker Application"
+          alt="Weather Dashboard Application"
         />
         <div className="card-body">
-          <h5 className="card-title">Workout Tracker</h5>
+          <h5 className="card-title">Weather Dashboard</h5>
           <p className="card-text">
-            <div className="workoutTracker-body">
-              DefineHub is a web application for defining, translating, and
-              pronunciation of inputted words. The application uses Bootstrap
-              for styling along with Words API, YouTube API, LibreTranslate API,
-              and SpeechSynthesis to provide the full user experience.
-            </div>
+            The Weather Dashboard utilizes the OpenWeather API to pass through
+            the user's inputted city and returns the current weather and weather
+            outlook for a 5-day forecast. The application also utilizes local
+            storage by saving the user's recently searched cities.
           </p>
           <a
-            href="https://workout-tracker-mongodb-app.herokuapp.com/"
+            href="https://jordandub1.github.io/weather-dashboard/"
             className="btn btn-primary"
             target="_blank"
             rel="noreferrer"
@@ -75,7 +72,49 @@ function Project() {
             Live Application
           </a>
           <a
-            href="https://github.com/jordandub1/workout-tracker"
+            href="https://github.com/jordandub1/weather-dashboard"
+            className="btn btn-primary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repository
+          </a>
+        </div>
+      </div>
+      {/* Work Day Scheduler Card */}
+      <div className="card work-cards" id="check-mate-card">
+        <img
+          id="work-day-scheduler-screenshot"
+          src={workDayScheduler}
+          className="card-img-top"
+          alt="Work Day Scheduler Application"
+        />
+        <div className="card-body">
+          <h5 className="card-title">Work Day Scheduler</h5>
+          <p className="card-text">
+            <div className="work-day-scheduler-body">
+              Work Day Scheduler was created to track (and save locally) work
+              day events from 9:00am to 5:00pm in hourly timeblocks. The
+              scheduler also tracks the time during the day for the user to
+              easily see what events have passed, are happening currently, or
+              take place in the future.
+              <br /> <br />
+              This application utilizes jQuery to dynamically update the HTML
+              and CSS files and Moment.js to work with date and time. It also
+              makes use of the end user's local storage to save the events that
+              are inputted.
+            </div>
+          </p>
+          <a
+            href="https://jordandub1.github.io/work-day-scheduler/"
+            className="btn btn-primary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Live Application
+          </a>
+          <a
+            href="https://github.com/jordandub1/work-day-scheduler"
             className="btn btn-primary"
             target="_blank"
             rel="noreferrer"
@@ -139,62 +178,31 @@ function Project() {
           </a>
         </div>
       </div>
-      <br />
-      {/* Weather Dashboard Card */}
-      <div className="card work-cards" id="weather-dashboard-card">
-        <img
-          id="weather-dashboard-screenshot"
-          src={weatherDashboard}
-          className="card-img-top"
-          alt="Weather Dashboard Application"
-        />
-        <div className="card-body">
-          <h5 className="card-title">Weather Dashboard</h5>
-          <p className="card-text">
-            The Weather Dashboard utilizes the OpenWeather API to pass through
-            the user's inputted city and returns the current weather and weather
-            outlook for a 5-day forecast. The application also utilizes local
-            storage by saving the user's recently searched cities.
-          </p>
-          <a
-            href="https://jordandub1.github.io/weather-dashboard/"
-            className="btn btn-primary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Live Application
-          </a>
-          <a
-            href="https://github.com/jordandub1/weather-dashboard"
-            className="btn btn-primary"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub Repository
-          </a>
-        </div>
-      </div>
-      <br />
-      {/* Work Day Scheduler Card */}
+      {/* Workout Tracker */}
       <div className="card work-cards" id="check-mate-card">
         <img
-          id="work-day-scheduler-screenshot"
-          src={workDayScheduler}
+          id="workoutTracker-screenshot"
+          src={workoutTracker}
           className="card-img-top"
-          alt="Work Day Scheduler Application"
+          alt="Workout Tracker Application"
         />
         <div className="card-body">
-          <h5 className="card-title">Work Day Scheduler</h5>
+          <h5 className="card-title">Workout Tracker</h5>
           <p className="card-text">
-            <div className="work-day-scheduler-body">
-              DefineHub is a web application for defining, translating, and
-              pronunciation of inputted words. The application uses Bootstrap
-              for styling along with Words API, YouTube API, LibreTranslate API,
-              and SpeechSynthesis to provide the full user experience.
+            <div className="workoutTracker-body">
+              I created this application to give end users the capability to
+              view, create, and track daily workouts. The EU has the capability
+              to log more than one exercise within a single workout and track
+              each exercise's name, type, weight, sets, reps, and duration. If
+              the exercise is cardio, the EU can track the distance traveled and
+              duration as well.
+              <br /> <br />
+              The Workout Tracker utilizes NoSQL (Mongo database and Mongoose
+              schema) along with Express.js to handle the application routes.
             </div>
           </p>
           <a
-            href="https://jordandub1.github.io/work-day-scheduler/"
+            href="https://workout-tracker-mongodb-app.herokuapp.com/"
             className="btn btn-primary"
             target="_blank"
             rel="noreferrer"
@@ -202,7 +210,7 @@ function Project() {
             Live Application
           </a>
           <a
-            href="https://github.com/jordandub1/work-day-scheduler"
+            href="https://github.com/jordandub1/workout-tracker"
             className="btn btn-primary"
             target="_blank"
             rel="noreferrer"

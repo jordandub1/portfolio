@@ -2,8 +2,10 @@ import React from "react";
 import "../styles/style.css";
 import checkmate from "../images/check-mate.svg";
 import definehub from "../images/definehub.svg";
-import weatherdashboard from "../images/weather-dashboard.png";
-import notetaker from "../images/note-taker.png";
+import weatherDashboard from "../images/weather-dashboard.png";
+import noteTaker from "../images/note-taker.png";
+import workoutTracker from "../images/workout-tracker.png";
+import workDayScheduler from "../images/work-day-scheduler.png";
 
 function Project() {
   return (
@@ -46,6 +48,42 @@ function Project() {
         </div>
       </div>
       <br />
+      {/* Workout Tracker */}
+      <div className="card work-cards" id="check-mate-card">
+        <img
+          id="workoutTracker-screenshot"
+          src={workoutTracker}
+          className="card-img-top"
+          alt="Workout Tracker Application"
+        />
+        <div className="card-body">
+          <h5 className="card-title">Workout Tracker</h5>
+          <p className="card-text">
+            <div className="workoutTracker-body">
+              DefineHub is a web application for defining, translating, and
+              pronunciation of inputted words. The application uses Bootstrap
+              for styling along with Words API, YouTube API, LibreTranslate API,
+              and SpeechSynthesis to provide the full user experience.
+            </div>
+          </p>
+          <a
+            href="https://workout-tracker-mongodb-app.herokuapp.com/"
+            className="btn btn-primary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Live Application
+          </a>
+          <a
+            href="https://github.com/jordandub1/workout-tracker"
+            className="btn btn-primary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repository
+          </a>
+        </div>
+      </div>
       {/* DefineHub Card */}
       <div className="card work-cards" id="check-mate-card">
         <img
@@ -106,7 +144,7 @@ function Project() {
       <div className="card work-cards" id="weather-dashboard-card">
         <img
           id="weather-dashboard-screenshot"
-          src={weatherdashboard}
+          src={weatherDashboard}
           className="card-img-top"
           alt="Weather Dashboard Application"
         />
@@ -136,11 +174,48 @@ function Project() {
           </a>
         </div>
       </div>
+      <br />
+      {/* Work Day Scheduler Card */}
+      <div className="card work-cards" id="check-mate-card">
+        <img
+          id="work-day-scheduler-screenshot"
+          src={workDayScheduler}
+          className="card-img-top"
+          alt="Work Day Scheduler Application"
+        />
+        <div className="card-body">
+          <h5 className="card-title">Work Day Scheduler</h5>
+          <p className="card-text">
+            <div className="work-day-scheduler-body">
+              DefineHub is a web application for defining, translating, and
+              pronunciation of inputted words. The application uses Bootstrap
+              for styling along with Words API, YouTube API, LibreTranslate API,
+              and SpeechSynthesis to provide the full user experience.
+            </div>
+          </p>
+          <a
+            href="https://jordandub1.github.io/work-day-scheduler/"
+            className="btn btn-primary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Live Application
+          </a>
+          <a
+            href="https://github.com/jordandub1/work-day-scheduler"
+            className="btn btn-primary"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub Repository
+          </a>
+        </div>
+      </div>
       {/* Note-Taker Card */}
       <div className="card work-cards" id="note-taker-card">
         <img
           id="note-taker-screenshot"
-          src={notetaker}
+          src={noteTaker}
           className="card-img-top"
           alt="Note-Taker Application"
         />

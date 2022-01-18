@@ -29,7 +29,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://jordandub1.github.io",
+  "homepage": "https://jordandub1.github.io/portfolio/about",
   "eslintConfig": {
     "extends": [
       "react-app",

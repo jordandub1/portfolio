@@ -15,7 +15,7 @@ function Navigation() {
                 "nav-link" + (!isActive ? " unselected" : "")
               }
               activeClassName="selected"
-              to="/portfolio"
+              to="/"
             >
               About Me
             </NavLink>
@@ -26,7 +26,7 @@ function Navigation() {
                 "nav-link" + (!isActive ? " unselected" : "")
               }
               activeClassName="selected"
-              to="/portfolio/work"
+              to="/portfolio"
             >
               Work
             </NavLink>
@@ -37,7 +37,7 @@ function Navigation() {
                 "nav-link" + (!isActive ? " unselected" : "")
               }
               activeClassName="selected"
-              to="/portfolio/contact"
+              to="/contact"
             >
               Contact
             </NavLink>

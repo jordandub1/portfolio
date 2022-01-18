@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/style.css";
-import checkmate from "../images/check-mate.svg";
-import definehub from "../images/definehub.svg";
+import checkmate from "../images/check-mate.png";
+import definehub from "../images/definehub.png";
 import weatherDashboard from "../images/weather-dashboard.png";
 import noteTaker from "../images/note-taker.png";
 import workoutTracker from "../images/workout-tracker.png";

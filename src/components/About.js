@@ -4,7 +4,7 @@ import self from "../images/jordan.jpeg";
 
 function About() {
   return (
-    <section className="about-me">
+    <section className="about-me" data-aos="fade-up">
       <div className="self-image">
         <img src={self} alt="Jordan DuBose" />
       </div>

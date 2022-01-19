@@ -73,7 +73,13 @@ a:hover {
 }
 
 /*Main content styling*/
+#root {
+  min-height: 100vh;
+}
+
 main {
+  position: relative;
+  /* min-height: 81vh; */
   margin: 0;
   padding: 0;
   background-color: var(--offwhite);
@@ -154,12 +160,12 @@ li {
 
 /*Footer*/
 .sticky-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
   background-color: black;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3.5rem;
 }
 
 .footer-content {
@@ -191,8 +197,15 @@ li {
 .work-cards {
   margin-left: 12.5%;
   width: 75%;
-  margin-top: 0.5%;
-  margin-bottom: 5%;
+  padding-bottom: 6rem;
+}
+
+#note-taker-card {
+  margin-bottom: 0;
+}
+
+.card {
+  margin-bottom: 2rem;
 }
 
 .card-body {
@@ -267,7 +280,7 @@ li {
 
 .contactlogos {
   padding-left: 0.75%;
-  padding-bottom: 2%;
+  /* padding-bottom: 2%; */
 }
 
 .contactlogos a {

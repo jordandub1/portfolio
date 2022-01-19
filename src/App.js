@@ -18,7 +18,7 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-    <div>
+    <>
       <Router>
         <Header />
         <main>
@@ -30,7 +30,7 @@ function App() {
         </main>
       </Router>
       <Footer />
-    </div>
+    </>
   );
 }
 

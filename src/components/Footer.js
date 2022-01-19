@@ -10,16 +10,16 @@ function Footer() {
       <div className="footer-content">
         <div className="logos">
           <a href="https://github.com/jordandub1" target="blank">
-            <img src={github} alt="GitHub Logo" height="50px" />
+            <img src={github} alt="GitHub Logo" height="40px" />
           </a>
           <a href="https://www.linkedin.com/in/jordandubose/" target="blank">
-            <img src={linkedin} alt="LinkedIn Logo" height="50px" />
+            <img src={linkedin} alt="LinkedIn Logo" height="40px" />
           </a>
           <a
             href="https://stackoverflow.com/users/16518817/jordandubose"
             target="blank"
           >
-            <img src={stack} alt="stackoverflow Logo" height="50px" />
+            <img src={stack} alt="stackoverflow Logo" height="40px" />
           </a>
         </div>
         <span className="copyright-notice">

@@ -6,7 +6,7 @@ import stack from "../images/stack-black.png";
 
 function Contact() {
   return (
-    <section className="contact-me">
+    <section className="contact-me" data-aos="fade-up">
       <div className="card card-color">
         <div className="card-body contact-body">
           <h5 className="card-title">How to contact me:</h5>

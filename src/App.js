@@ -6,16 +6,10 @@ import Contact from "./components/Contact";
 
 import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import AOS from "aos";
 
 import "./App.css";
 import "aos/dist/aos.css";
-
-const client = new ApolloClient({
-  uri: "/graphql",
-  cache: new InMemoryCache(),
-});
 
 function App() {
   // AOS init
@@ -23,23 +17,20 @@ function App() {
     AOS.init();
     AOS.refresh();
   }, []);
-
   return (
-    <ApolloProvider client={client}>
-      <div className="app-wrapper">
-        <Router>
-          <Header />
-          <main>
-            <Routes>
-              <Route exact path="/" element={<About />} />
-              <Route path="/work" element={<Portfolio />} />
-              <Route path="/contact" element={<Contact />} />
-            </Routes>
-          </main>
-        </Router>
-        <Footer />
-      </div>
-    </ApolloProvider>
+    <div>
+      <Router>
+        <Header />
+        <main>
+          <Routes>
+            <Route exact path="/" element={<About />} />
+            <Route path="/work" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+      </Router>
+      <Footer />
+    </div>
   );
 }
 

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5f9d068a.css",
-    "main.js": "/portfolio/static/js/main.89103357.js",
+    "main.js": "/portfolio/static/js/main.575b4f6a.js",
     "static/media/definehub.png": "/portfolio/static/media/definehub.b1f6cd20efdeaf846bb8.png",
     "static/media/work-day-scheduler.png": "/portfolio/static/media/work-day-scheduler.59273c01a27916f1b186.png",
     "static/media/hero.png": "/portfolio/static/media/hero.953afb33f20460920700.png",
@@ -13,10 +13,10 @@
     "static/media/logo192.png": "/portfolio/static/media/logo192.93206a67104aa761b5dc.png",
     "index.html": "/portfolio/index.html",
     "main.5f9d068a.css.map": "/portfolio/static/css/main.5f9d068a.css.map",
-    "main.89103357.js.map": "/portfolio/static/js/main.89103357.js.map"
+    "main.575b4f6a.js.map": "/portfolio/static/js/main.575b4f6a.js.map"
   },
   "entrypoints": [
     "static/css/main.5f9d068a.css",
-    "static/js/main.89103357.js"
+    "static/js/main.575b4f6a.js"
   ]
 }

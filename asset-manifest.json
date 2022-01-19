@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5f9d068a.css",
+    "main.js": "/portfolio/static/js/main.89103357.js",
+    "static/media/definehub.png": "/portfolio/static/media/definehub.b1f6cd20efdeaf846bb8.png",
+    "static/media/work-day-scheduler.png": "/portfolio/static/media/work-day-scheduler.59273c01a27916f1b186.png",
+    "static/media/hero.png": "/portfolio/static/media/hero.953afb33f20460920700.png",
+    "static/media/check-mate.png": "/portfolio/static/media/check-mate.92e4a2f927caaf7cd71f.png",
+    "static/media/weather-dashboard.png": "/portfolio/static/media/weather-dashboard.96a1d89002b438ff1401.png",
+    "static/media/note-taker.png": "/portfolio/static/media/note-taker.5d3df8fc843ad54dc4d5.png",
+    "static/media/Jordan-DuBose-Resume.pdf": "/portfolio/static/media/Jordan-DuBose-Resume.eb48d835de160ee96261.pdf",
+    "static/media/workout-tracker.png": "/portfolio/static/media/workout-tracker.43bec70ddfe5ba061a61.png",
+    "static/media/logo192.png": "/portfolio/static/media/logo192.93206a67104aa761b5dc.png",
+    "index.html": "/portfolio/index.html",
+    "main.5f9d068a.css.map": "/portfolio/static/css/main.5f9d068a.css.map",
+    "main.89103357.js.map": "/portfolio/static/js/main.89103357.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f9d068a.css",
+    "static/js/main.89103357.js"
+  ]
+}

@@ -1,6 +1,6 @@
 * {
   font-family: "Montserrat", sans-serif;
-  --offwhite: #f5f5f5;
+  --offwhite: #ebe9e9;
 }
 
 /* Body Styling*/
@@ -10,6 +10,7 @@ body {
   box-sizing: border-box;
   position: relative;
   background-color: var(--offwhite);
+  height: 100%;
 }
 
 /*Hero Image*/
@@ -79,7 +80,7 @@ a:hover {
 
 main {
   position: relative;
-  /* min-height: 81vh; */
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   background-color: var(--offwhite);
@@ -133,6 +134,31 @@ li {
   border-radius: 50%;
   grid-column: 1 / 9;
   grid-row: 1;
+}
+
+/* About me image grid */
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.photo-grid img {
+  width: 100%;
 }
 
 /* About me text styling */
